@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTalk_Prices</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<style>
+    /* banner button */
+    .banner_button {
+        padding: 10px;
+        color: #fff;
+    }
+
+    .banner_button a {
+        color: #fff;
+    }
+
+    /* ----pricing table ----*/
+
+    .pricing_table_container {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+
+    .pricing_table_content {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .p_table_item {
+        width: 300px;
+        box-sizing: border-box;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 4px 5px 20px 0px rgb(59 57 57 / 20%);
+        display: flex;
+        margin: 20px;
+    }
+
+    .p_table_inner {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .p_table_item:hover {
+        transform: scale(1.1);
+        background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    }
+
+    .p_tag {
+        width: 100%;
+        background-color: #fcf6bd;
+        text-align: center;
+        line-height: 40px;
+        letter-spacing: 3px;
+    }
+
+    .color_tag {
+        background-color: #90e0ef;
+    }
+
+    .color_tag_basic {
+        background-color: #d0f4de;
+    }
+
+    .show_price_size {
+        font-size: 40px;
+        font-weight: bold;
+
+    }
+
+    .freeTrial_button {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .p_table_icon {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .letter_gap {
+        letter-spacing: 3px;
+    }
+
+    .prize_icon {
+        width: 120px;
+        height: 100px;
+        padding: 20px;
+    }
+
+    .small_icon {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+
+    .banner_button {
+        flex-grow: 1;
+    }
+
+    .lesson_btn {
+        background-color: #fff;
+        border: 1px solid #f49988;
+    }
+
+    .lesson_btn a {
+        color: #f49988;
+    }
+
+    .origin_price {
+        flex-grow: 1;
+    }
+
+    .origin_price p {
+        color: gray;
+    }
+
+    .p_tag_button {
+        margin-bottom: 40px;
+    }
+
+    .origin_price .special {
+        color: rgb(221, 109, 109);
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <!-- logo 登入 -->
+            <div class="nav_container">
+                <div class="nav_bar">
+                    <div class="nav_bar_logo">
+                        <a href="./index.html"><img src="./picture/image/main/logo.png" width="130px" height="40px"
+                                alt=""></a>
+                    </div>
+                    <div class="logIn">
+                        <a href="./EnglishCourses.html" target="test">課程介紹</a>
+                        <a href="#">價格參考</a>
+                        <a href="#">老師團隊</a>
+                        <a href="./logIn.html">登入</a>
+                        <img src="./picture/image/icon/profile.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- 價格 prices plan -->
+    <section class="pricing_table_container giveCenter">
+        <div class="pricing_table title">
+            <h2>價格參考<br><span class="main_heading_sub_title">Prices plan</span></h2>
+        </div>
+        <div class="pricing_table_content">
+            <div class="p_table_item">
+                <div class="p_table_inner">
+                    <div class="p_table_icon">
+                        <img class="small_icon" src="./picture/image/icon/prize-S.png" alt="">
+                    </div>
+                    <h3 class="letter_gap">5堂課</h3>
+                    <div class="show_price col-even">
+                        <span class="show_price_size letter_gap"><span class="money_symbol">$</span>1,790</>
+                    </div>
+                    <div class="p_tag color_tag_basic">小試身手</div>
+                    <div class="origin_price">
+                        <p>原價：400/堂</p>
+                        <p>平均：358/堂</p>
+                    </div>
+                    <div class="p_tag_button">
+                        <button class="register_button lesson_btn"><a href="./SignUp.html">開始體驗</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="p_table_item">
+                <div class="p_table_inner">
+                    <div class="p_table_icon">
+                        <img class="prize_icon" src="./picture/image/icon/prize-M.png" alt="">
+                    </div>
+                    <h3 class="letter_gap">10堂課</h3>
+                    <div class="show_price col-even">
+                        <span class="show_price_size letter_gap"><span class="money_symbol">$</span>3,290</>
+                    </div>
+                    <div class="p_tag color_tag">習慣養成</div>
+                    <div class="origin_price">
+                        <p>原價：400/堂</p>
+                        <p>平均：329/堂</p>
+                    </div>
+                    <div class="p_tag_button">
+                        <button class="register_button lesson_btn"><a href="./SignUp.html">開始體驗</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p_table_item">
+                <div class="p_table_inner">
+                    <div class="p_table_icon">
+                        <img class="prize_icon" src="./picture/image/icon/prize-L.png" alt="">
+                    </div>
+                    <h3 class="letter_gap">20堂課</h3>
+                    <div class="show_price col-even">
+                        <span class="show_price_size letter_gap"><span class="money_symbol">$</span>5,990</>
+                    </div>
+                    <div class="p_tag">熱門選擇</div>
+                    <div class="origin_price">
+                        <p>原價：400/堂</p>
+                        <p class="special">平均：299./堂</p>
+                    </div>
+                    <div class="p_tag_button">
+                        <button class="register_button"><a href="./SignUp.html">開始體驗</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer_container">
+                <div class="copy_right_menu_wrap">
+                    <p class="footer_copyright">Copyright © 2022 SmileTalk All Rights Reserved. TibaMe presentation
+                        purpose only.</p>
+                    <ul class="footer_menu">
+                        <li><a href="#"><img src="./picture/image/icon/fb.png" alt=""></a></li>
+                        <li><a href="#"><img src="./picture/image/icon/ig.png" alt=""></a></li>
+                        <li><a href="#"><img src="./picture/image/icon/line.png" alt=""></a>
+                        </li>
+                        <li><a href="#"><img src="./picture/image/icon/twitter.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="goTop_parent">
+        <div class="goTop">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1635/1635653.png" alt="" width="60px"
+                    height="60px"></a>
+        </div>
+    </div>
+</body>
+
+</html>

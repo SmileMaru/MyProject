@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="main.css" />
+    <style>
+        body {
+            background-color: #c1dff0;
+        }
+
+        header {
+            background-image: url(../MyProject/picture/image/background/teacherBannerBackgroud.svg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+        }
+
+        /* banner */
+        .banner_setting {
+            max-width: 1200px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .banner_title_part {
+            margin-top: 100px;
+        }
+
+        .banner_course_info {
+            width: 100%;
+        }
+
+        .course_three_cards_container {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .course_three_cards_container_row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .course_info {
+            width: 33.333333%;
+            text-align: center;
+        }
+
+        .course_info_imgPart {
+            width: 100%;
+        }
+
+        .course_info_imgPart img {
+            width: 70%;
+        }
+
+        /* teacher */
+        .section_teacher_title {
+            text-align: center;
+        }
+
+        .intro_teacher_container {
+            display: flex;
+            justify-content: space-around;
+            border-radius: 30px;
+            margin-bottom: 50px;
+            background-color: #fff;
+        }
+
+        .standard_box {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1200px;
+        }
+
+        .intro_teacher_container:hover {
+            box-shadow: 5px 5px 16px rgb(10, 10, 10, 60%);
+        }
+
+        .teacher_info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 0px;
+        }
+
+        .video_course {
+            display: flex;
+            align-items: center;
+        }
+
+        .teacher_photo {
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 10px 10px 0px rgb(2, 62, 138, 80%);
+            margin-bottom: 15px;
+        }
+
+        .teacher_content {
+            width: 400px;
+            text-align: center;
+        }
+
+        .teacher_content,
+        h3,
+        p {
+            color: rgb(2, 62, 138);
+        }
+
+        .teacher_photo img {
+            width: 100%;
+        }
+
+        .experience {
+            line-height: 20px;
+        }
+
+        .sub_title {
+            color: rgb(2, 62, 138);
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- logo 登入 -->
+            <div class="nav_container">
+                <div class="nav_bar">
+                    <div class="nav_bar_logo">
+                        <a href="./index.html"><img src="./picture/image/main/logo.png" width="130px" height="40px"
+                                alt="" /></a>
+                    </div>
+                    <div class="logIn">
+                        <a class="free_trial" href="#">免費體驗</a>
+                        <a href="./EnglishCourses.html" target="test">課程介紹</a>
+                        <a href="#">價格參考</a>
+                        <a class="current_page" href="#">老師團隊</a>
+                        <a href="./logIn.html">登入</a>
+                        <img src="./picture/image/icon/profile.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner_setting">
+            <div class="banner_container">
+                <div class="banner_title_part">
+                    <h1>專業認證的專業母語外師</h1>
+                    <h2>
+                        Our certified native English speaking Pro teachers can solve your
+                        problems.
+                    </h2>
+                    <div class="banner_course_info">
+                        <div class="course_three_cards_container">
+                            <div class="course_three_cards_container_row">
+                                <div class="course_info">
+                                    <div class="course_info_imgPart">
+                                        <img src="./picture/image/icon/customize.png" alt="" />
+                                    </div>
+                                    <div class="course_info_text">
+                                        <h2>
+                                            可訂制教學主題<br /><span>We know your special needs</span>
+                                        </h2>
+                                    </div>
+                                </div>
+
+                                <div class="course_info">
+                                    <div class="course_info_imgPart">
+                                        <img src="./picture/image/icon/SmallClass.png" alt="" />
+                                    </div>
+                                    <div class="course_info_text">
+                                        <h2>
+                                            小組課堂<br /><span>Maxium five students per class</span>
+                                        </h2>
+                                    </div>
+                                </div>
+
+                                <div class="course_info">
+                                    <div class="course_info_imgPart">
+                                        <img src="./picture/image/icon/certificate.png" alt="" />
+                                    </div>
+                                    <div class="course_info_text">
+                                        <h2>
+                                            專業導師<br /><span>Certified native English Pro teachers</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="standard_box">
+        <div class="section_title">
+            <h2>老師團隊<br /><span>SmartTalk's team</span></h2>
+        </div>
+        <div class="intro_teacher_container">
+            <div class="teacher_info">
+                <div class="teacher_photo">
+                    <img src="./picture/image/teacher/teacher-m1.jpg" alt="" />
+                </div>
+                <div class="teacher_content">
+                    <div class="teacher_title">
+                        <h3>John Smith<br /><span class="sub_title">實用英文</span></h3>
+                    </div>
+                    <div class="experience">
+                        <p>
+                            6年以上英語教學經驗<br />TESOL/TEFL認證專業國際英語教師<br />從日常主題入手，讓你隨時隨地學英文
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_course">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uUMPULuwdLI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="intro_teacher_container">
+            <div class="teacher_info">
+                <div class="teacher_photo">
+                    <img src="./picture/image/teacher/teacher-m2.jpg" alt="" />
+                </div>
+                <div class="teacher_content">
+                    <div class="teacher_title">
+                        <h3>Chris Evans<br /><span class="sub_title">商務英文</span></h3>
+                    </div>
+                    <div class="experience">
+                        <p>
+                            10年以上課堂教學經驗<br />教育碩士在教育領域<br />學生會用合適的話題來練習對話
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_course">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pKoH9GkEKxQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="intro_teacher_container">
+            <div class="teacher_info">
+                <div class="teacher_photo">
+                    <img src="./picture/image/teacher/teacher-f1.jpg" alt="" />
+                </div>
+                <div class="teacher_content">
+                    <div class="teacher_title">
+                        <h3>
+                            Julia Roberts<br /><span class="sub_title">旅遊英文</span>
+                        </h3>
+                    </div>
+                    <div class="experience">
+                        <p>
+                            10年以上課堂教學經驗<br />教育碩士在教育領域<br />暢談主題：電影、股票、旅遊、體育等
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_course">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CwUTLYIDZUY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="intro_teacher_container">
+            <div class="teacher_info">
+                <div class="teacher_photo">
+                    <img src="./picture/image/teacher/teacher-m3.jpg" alt="" />
+                </div>
+                <div class="teacher_content">
+                    <div class="teacher_title">
+                        <h3>Johnny Depp<br /><span class="sub_title">實用英文</span></h3>
+                    </div>
+                    <div class="experience">
+                        <p>
+                            4年以上課堂教學經驗<br />教育碩士在教育領域<br />輕鬆的口語練習，使用你自己感興趣的話題
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_course">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1qCAOycNg5o"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="intro_teacher_container">
+            <div class="teacher_info">
+                <div class="teacher_photo">
+                    <img src="./picture/image/teacher/teacher-f2.jpg" alt="" />
+                </div>
+                <div class="teacher_content">
+                    <div class="teacher_title">
+                        <h3>Betty White<br /><span class="sub_title">商務英文</span></h3>
+                    </div>
+                    <div class="experience">
+                        <p>
+                            4年以上課堂教學經驗<br />教育碩士在教育領域<br />了解商業主題，幫助您更有效地改善職涯發展
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_course">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ijQDxwUGIOg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="intro_teacher_container">
+            <div class="teacher_info">
+                <div class="teacher_photo">
+                    <img src="./picture/image/teacher/teacher-f3.jpg" alt="" />
+                </div>
+                <div class="teacher_content">
+                    <div class="teacher_title">
+                        <h3>
+                            Sandra Bullock<br /><span class="sub_title">旅遊英文</span>
+                        </h3>
+                    </div>
+                    <div class="experience">
+                        <p>
+                            4年以上課堂教學經驗<br />教育碩士在教育領域<br />學習可以幫助您聽起來像母語人士的休閒短語
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_course">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2iXJbllx1b8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer_container">
+                <div class="copy_right_menu_wrap">
+                    <p class="footer_copyright">
+                        Copyright © 2022 SmileTalk All Rights Reserved. TibaMe
+                        presentation purpose only.
+                    </p>
+                    <ul class="footer_menu">
+                        <li>
+                            <a href="#"><img src="./picture/image/icon/fb.png" alt="" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./picture/image/icon/ig.png" alt="" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./picture/image/icon/line.png" alt="" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./picture/image/icon/twitter.png" alt="" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="goTop_parent">
+        <div class="goTop">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1635/1635653.png" alt="" width="60px"
+                    height="60px" /></a>
+        </div>
+    </div>
+</body>
+
+</html>

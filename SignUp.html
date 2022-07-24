@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTalk/SignUp</title>
+    <link rel="stylesheet" href="reset.css">
+</head>
+<style>
+    header {
+        background: url(./picture/backgroud-wave-linear.png);
+        background-image: 100%;
+        background-size: cover;
+    }
+
+    #input_box {
+        background-color: #f7f7f7;
+        font-weight: 200;
+        border: 1px solid transparent;
+        padding: 18px 30px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+    }
+
+    .logIn_input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logIn_title {
+        text-align: center;
+    }
+
+    .logIn_container {
+        padding: 0px 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logIn_box {
+        height: 400px;
+        width: 400px;
+        padding: 60px;
+    }
+
+    .btn {
+        margin-bottom: 25px;
+        background-color: #f49988;
+        border-radius: 10px;
+        line-height: 30px;
+        border: 1px solid transparent;
+        padding: 10px;
+        box-shadow: 5px 5px 16px rgb(10, 10, 10, 10%);
+    }
+
+    nav {
+        width: 100%;
+        z-index: -1;
+        background-color: #fff;
+        box-shadow: 1px 1px 20px -6px rgb(0 0 0 / 20%);
+    }
+
+    .nav_container {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        height: 40px;
+        padding: 10px 40px;
+    }
+
+    .book_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .signUp_link {
+        padding: 30px;
+        color: #f49988;
+        font-weight: bold;
+    }
+
+    .signUp_part {
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <!-- logo  -->
+            <div class="nav_container">
+                <div class="nav_bar_logo">
+                    <img src="./picture/logo.jpg" width="130px" height="40px" alt="">
+                </div>
+            </div>
+        </nav>
+
+        <div class="logIn_container">
+
+            <div class="logIn_box">
+                <div class="logIn_title">
+                    <img src="./picture/profile.png" alt="">
+                    <h2>Sign up</h2>
+                    <div class="logIn_input">
+                        <input type="text" placeholder="Email" id="input_box">
+                        <input type="password" placeholder="Password" id="input_box">
+                        <a href="#" class="btn">建立帳戶</a>
+                    </div>
+                    <div class="forgot_password">
+
+                        <div class="signUp_part">
+                            <p>已是 SmartTalk 學員?<a class="signUp_link" href="#">登入</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>

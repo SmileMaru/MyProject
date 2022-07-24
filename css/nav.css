@@ -1,0 +1,42 @@
+/* logo - logIn part */
+.nav_container {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    box-shadow: 1px 1px 20px -6px rgb(0 0 0 / 20%);
+    background-color: #fff;
+    box-sizing: border-box;
+    z-index: 1;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_bar {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_bar_logo img {
+    vertical-align: top;
+}
+
+.logIn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.register_button {
+    background-color: #f49988;
+    font-size: 16px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    padding: 15px;
+}
+
+.register_button a {
+    color: #fff;
+}
