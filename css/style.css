@@ -221,7 +221,7 @@
 
 .course_all_wrap {
     width: 100%;
-    background-image: url(/image/background/homepage_courseType_backgroud.png);
+    background-image: url(/image/background/homepage_courseType_backgroud-blue.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -340,7 +340,7 @@
 
 .section_teacher_cards_container {
     width: 100%;
-    background-image: url(/image/background/teacher_extension.png);
+    background-image: url(/image/background/extension_backgroud_wave.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -385,7 +385,7 @@
 
 /* ----pricing table ----*/
 .price_backgroud_color {
-    background-image: url(/image/background/footerbackgroud.png);
+    background-image: url(/image/background/vertical-flip-wave.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px 0px;
