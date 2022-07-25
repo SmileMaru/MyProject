@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="css/reset.css">
 </head>
 <style>
-    header {
-        background: url(./image/background/backgroud-wave-linear.png);
-        background-image: 100%;
-        background-size: cover;
+    html {
+        height: 900px;
+        background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+        background-repeat: no-repeat;
+        box-sizing: border-box;
     }
 
     #input_box {
@@ -34,15 +35,19 @@
     }
 
     .logIn_container {
-        padding: 0px 60px;
         display: flex;
         justify-content: center;
+        align-items: center;
+        padding: 100px 0px;
     }
 
     .logIn_box {
-        height: 400px;
+        height: 550px;
         width: 400px;
-        padding: 60px;
+        padding: 50px;
+        box-shadow: 4px 5px 20px 0px rgb(59 57 57 / 20%);
+        background-color: #fff;
+        border-radius: 30px;
     }
 
     .btn {
@@ -55,11 +60,17 @@
         box-shadow: 5px 5px 16px rgb(10, 10, 10, 10%);
     }
 
+    .btn:hover {
+        transform: scale(1.1);
+    }
+
+    /* nav */
     nav {
         width: 100%;
-        z-index: -1;
+        z-index: 1;
         background-color: #fff;
         box-shadow: 1px 1px 20px -6px rgb(0 0 0 / 20%);
+        position: fixed;
     }
 
     .nav_container {
@@ -77,13 +88,33 @@
     }
 
     .signUp_link {
-        padding: 30px;
+        padding: 20px;
         color: #f49988;
         font-weight: bold;
     }
 
-    .signUp_part {
-        padding: 20px;
+
+
+    /* cloud */
+    .cloud_icon {
+        position: relative;
+    }
+
+    .cloud_backgroud {
+        position: absolute;
+        bottom: 100%;
+    }
+
+    .cloud_jack {
+        right: 150px;
+        bottom: 200px;
+        width: 400px
+    }
+
+    .cloud_lily {
+        width: 400px;
+        left: 150px;
+        bottom: 400px;
     }
 </style>
 
@@ -93,18 +124,19 @@
             <!-- logo  -->
             <div class="nav_container">
                 <div class="nav_bar_logo">
-                    <img src="image/main/logo.png" width="130px" height="40px" alt="">
+                    <a href="index.html"><img src="image/main/logo.png" width="130px" height="40px" alt=""></a>
                 </div>
             </div>
         </nav>
 
         <div class="logIn_container">
-
             <div class="logIn_box">
                 <div class="logIn_title">
                     <img src="image/icon/profile.png" alt="">
-                    <h2>Sign up</h2>
+                    <h1>Sign up</h1>
                     <div class="logIn_input">
+                        <input type="text" placeholder="First name" id="input_box">
+                        <input type="text" placeholder="Surname" id="input_box">
                         <input type="text" placeholder="Email" id="input_box">
                         <input type="password" placeholder="Password" id="input_box">
                         <a href="#" class="btn">建立帳戶</a>
@@ -112,12 +144,15 @@
                     <div class="forgot_password">
 
                         <div class="signUp_part">
-                            <p>已是 SmartTalk 學員?<a class="signUp_link" href="#">登入</a></p>
+                            <p>已是 SmartTalk 學員?<a class="signUp_link" href="logIn.html">登入</a></p>
                         </div>
                     </div>
-
                 </div>
             </div>
+        </div>
+        <div class="cloud_icon">
+            <img class="cloud_backgroud cloud_jack" src="image/icon/cloud.png" alt="">
+            <img class="cloud_backgroud cloud_lily" src="image/icon/cloud.png" alt="">
         </div>
     </header>
 </body>

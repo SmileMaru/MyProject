@@ -8,135 +8,9 @@
     <title>SmartTalk_Prices</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/gradient-fill.css">
+    <link rel="stylesheet" href="css/pricePlan.css">
 </head>
-<style>
-    /* banner button */
-    .banner_button {
-        padding: 10px;
-        color: #fff;
-    }
-
-    .banner_button a {
-        color: #fff;
-    }
-
-    /* ----pricing table ----*/
-
-    .pricing_table_container {
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 100px;
-    }
-
-    .pricing_table_content {
-        height: 500px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .p_table_item {
-        width: 300px;
-        box-sizing: border-box;
-        text-align: center;
-        border-radius: 30px;
-        box-shadow: 4px 5px 20px 0px rgb(59 57 57 / 20%);
-        display: flex;
-        margin: 20px;
-    }
-
-    .p_table_inner {
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-    }
-
-    .p_table_item:hover {
-        transform: scale(1.1);
-        background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
-    }
-
-    .p_tag {
-        width: 100%;
-        background-color: #fcf6bd;
-        text-align: center;
-        line-height: 40px;
-        letter-spacing: 3px;
-    }
-
-    .color_tag {
-        background-color: #90e0ef;
-    }
-
-    .color_tag_basic {
-        background-color: #d0f4de;
-    }
-
-    .show_price_size {
-        font-size: 40px;
-        font-weight: bold;
-
-    }
-
-    .freeTrial_button {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
-    .p_table_icon {
-        width: 100%;
-        height: 150px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .letter_gap {
-        letter-spacing: 3px;
-    }
-
-    .prize_icon {
-        width: 120px;
-        height: 100px;
-        padding: 20px;
-    }
-
-    .small_icon {
-        width: 80px;
-        height: 80px;
-        padding: 20px;
-    }
-
-    .banner_button {
-        flex-grow: 1;
-    }
-
-    .lesson_btn {
-        background-color: #fff;
-        border: 1px solid #f49988;
-    }
-
-    .lesson_btn a {
-        color: #f49988;
-    }
-
-    .origin_price {
-        flex-grow: 1;
-    }
-
-    .origin_price p {
-        color: gray;
-    }
-
-    .p_tag_button {
-        margin-bottom: 40px;
-    }
-
-    .origin_price .special {
-        color: rgb(221, 109, 109);
-        font-weight: bold;
-    }
-</style>
 
 <body>
     <header>
@@ -148,84 +22,106 @@
                         <a href="index.html"><img src="image/main/logo.png" width="130px" height="40px" alt=""></a>
                     </div>
                     <div class="logIn">
-                        <a class="free_trial hover_stroke" href="#">免費體驗</a>
+                        <a class="free_trial hover_stroke" href="SignUp.html">免費體驗</a>
                         <a class="hover_stroke" href="EnglishCourses.html">課程介紹</a>
-                        <a class="hover_stroke" href="#">價格參考</a>
-                        <a class="hover_stroke" href="#">老師團隊</a>
+                        <a class="hover_stroke current_page" href="pricePlan.html">價格參考</a>
+                        <a class="hover_stroke" href="teacher.html">老師團隊</a>
                         <a class="hover_stroke" href="logIn.html">登入</a>
                         <img src="image/icon/profile.png" alt="">
                     </div>
                 </div>
             </div>
         </nav>
+
+        <div class="banner">
+            <div class="banner_container">
+                <div class="banner_text_part">
+                    <div class="banner_main_title">
+                        <h1>即刻建立您英文口說的自信<br><span class="gradient-fill">現在開始學習英文</span></h1>
+                        <h2>Build your English speaking confident.<br>Start learning English now.</h2>
+                        <div class="freeTrial_button">
+                            <button class="register_button banner_button"><a href="SignUp.html">免費註冊體驗</a></button>
+                        </div>
+                    </div>
+
+
+                    <div class="banner_picture">
+                        <img src="/image/banner/goodReview.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- 價格 prices plan -->
-    <section class="pricing_table_container giveCenter">
-        <div class="pricing_table title">
-            <h2>價格參考<br><span class="main_heading_sub_title">Prices plan</span></h2>
-        </div>
-        <div class="pricing_table_content">
-            <div class="p_table_item">
-                <div class="p_table_inner">
-                    <div class="p_table_icon">
-                        <img class="small_icon" src="image/icon/prize-S.png" alt="">
-                    </div>
-                    <h3 class="letter_gap">5堂課</h3>
-                    <div class="show_price col-even">
-                        <span class="show_price_size letter_gap"><span class="money_symbol">$</span>1,790</>
-                    </div>
-                    <div class="p_tag color_tag_basic">小試身手</div>
-                    <div class="origin_price">
-                        <p>原價：400/堂</p>
-                        <p>平均：358/堂</p>
-                    </div>
-                    <div class="p_tag_button">
-                        <button class="register_button lesson_btn"><a href="SignUp.html">開始體驗</a></button>
+    <div class="backgroud_color">
+        <section class="pricing_table_container giveCenter">
+            <div class="pricing_table title">
+                <h2>價格參考<br><span class="main_heading_sub_title">Plans and Pricing</span></h2>
+            </div>
+            <div class="pricing_table_content">
+                <div class="p_table_item">
+                    <div class="p_table_inner">
+                        <div class="p_table_icon">
+                            <img class="small_icon" src="image/icon/prize-S.png" alt="">
+                        </div>
+                        <h3 class="letter_gap">5堂課</h3>
+                        <div class="show_price col-even">
+                            <span class="show_price_size letter_gap"><span class="money_symbol">$</span>1,790</>
+                        </div>
+                        <div class="p_tag color_tag_basic">小試身手</div>
+                        <div class="origin_price">
+                            <p>原價：400/堂</p>
+                            <p>平均：358/堂</p>
+                        </div>
+                        <div class="p_tag_button">
+                            <button class="register_button lesson_btn"><a href="SignUp.html">開始體驗</a></button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="p_table_item">
-                <div class="p_table_inner">
-                    <div class="p_table_icon">
-                        <img class="prize_icon" src="image/icon/prize-M.png" alt="">
+                <div class="p_table_item">
+                    <div class="p_table_inner">
+                        <div class="p_table_icon">
+                            <img class="prize_icon" src="image/icon/prize-M.png" alt="">
+                        </div>
+                        <h3 class="letter_gap">10堂課</h3>
+                        <div class="show_price col-even">
+                            <span class="show_price_size letter_gap"><span class="money_symbol">$</span>3,290</>
+                        </div>
+                        <div class="p_tag color_tag">習慣養成</div>
+                        <div class="origin_price">
+                            <p>原價：400/堂</p>
+                            <p>平均：329/堂</p>
+                        </div>
+                        <div class="p_tag_button">
+                            <button class="register_button lesson_btn"><a href="SignUp.html">開始體驗</a></button>
+                        </div>
                     </div>
-                    <h3 class="letter_gap">10堂課</h3>
-                    <div class="show_price col-even">
-                        <span class="show_price_size letter_gap"><span class="money_symbol">$</span>3,290</>
-                    </div>
-                    <div class="p_tag color_tag">習慣養成</div>
-                    <div class="origin_price">
-                        <p>原價：400/堂</p>
-                        <p>平均：329/堂</p>
-                    </div>
-                    <div class="p_tag_button">
-                        <button class="register_button lesson_btn"><a href="SignUp.html">開始體驗</a></button>
+                </div>
+
+                <div class="p_table_item">
+                    <div class="p_table_inner">
+                        <div class="p_table_icon">
+                            <img class="prize_icon" src="image/icon/prize-L.png" alt="">
+                        </div>
+                        <h3 class="letter_gap">20堂課</h3>
+                        <div class="show_price col-even">
+                            <span class="show_price_size letter_gap"><span class="money_symbol">$</span>5,990</>
+                        </div>
+                        <div class="p_tag">熱門選擇</div>
+                        <div class="origin_price">
+                            <p>原價：400/堂</p>
+                            <p class="special">平均：299./堂</p>
+                        </div>
+                        <div class="p_tag_button">
+                            <button class="register_button"><a href="SignUp.html">開始體驗</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="p_table_item">
-                <div class="p_table_inner">
-                    <div class="p_table_icon">
-                        <img class="prize_icon" src="image/icon/prize-L.png" alt="">
-                    </div>
-                    <h3 class="letter_gap">20堂課</h3>
-                    <div class="show_price col-even">
-                        <span class="show_price_size letter_gap"><span class="money_symbol">$</span>5,990</>
-                    </div>
-                    <div class="p_tag">熱門選擇</div>
-                    <div class="origin_price">
-                        <p>原價：400/堂</p>
-                        <p class="special">平均：299./堂</p>
-                    </div>
-                    <div class="p_tag_button">
-                        <button class="register_button"><a href="SignUp.html">開始體驗</a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
+    </div>
 
-    </section>
 
     <footer>
         <div class="footer">

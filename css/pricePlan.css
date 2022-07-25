@@ -1,0 +1,198 @@
+/* banner button */
+.banner_button {
+    padding: 10px;
+    color: #fff;
+}
+
+.banner_button a {
+    color: #fff;
+}
+
+/* banner */
+
+.banner {
+    background-image: url(../image/background/backgroud-wave-linear1.png);
+    background-repeat: no-repeat;
+}
+
+.banner_container {
+    max-width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+}
+
+.banner_picture {
+    width: 50%;
+    height: 500px;
+}
+
+.banner_picture img {
+    width: 500px;
+    padding: 40px;
+}
+
+
+.banner_text_part {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #2B4057;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.banner_main_title {
+    width: 50%;
+}
+
+.banner_main_title h1 {
+    font-size: 50px;
+}
+
+.section_title {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.section_title::before {
+    content: url(../image/icon/ribbon.png);
+    vertical-align: -20%;
+    padding-right: 10px;
+}
+
+.banner {
+    position: relative;
+}
+
+/* ----pricing table ----*/
+.backgroud_color {
+    background-image: url(../image/background/vertical-flip-wave.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing_table_container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pricing_table_content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.pricing_table h2::before {
+    content: url(../image/icon/ribbon.png);
+    vertical-align: -20%;
+    padding-right: 10px;
+}
+
+.p_table_item {
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 4px 5px 20px 0px rgb(59 57 57 / 20%);
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.p_table_inner {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.p_table_item:hover {
+    transform: scale(1.1);
+}
+
+.p_tag {
+    width: 100%;
+    background-color: #fcf6bd;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+
+.color_tag {
+    background-color: #90e0ef;
+}
+
+.color_tag_basic {
+    background-color: #d0f4de;
+}
+
+.show_price_size {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.freeTrial_button {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.p_table_icon {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter_gap {
+    letter-spacing: 3px;
+}
+
+.prize_icon {
+    width: 120px;
+    height: 100px;
+    padding: 20px;
+}
+
+.small_icon {
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+}
+
+.banner_button {
+    padding: 15px;
+}
+
+.lesson_btn {
+    background-color: #fff;
+    border: 1px solid #f49988;
+}
+
+.lesson_btn a,
+.logIn .free_trial {
+    color: #f49988;
+}
+
+.origin_price {
+    flex-grow: 1;
+}
+
+.origin_price p {
+    color: gray;
+}
+
+.p_tag_button {
+    margin-bottom: 40px;
+}
+
+.origin_price .special {
+    color: rgb(221, 109, 109);
+    font-weight: bold;
+}

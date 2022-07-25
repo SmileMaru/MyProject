@@ -1,15 +1,7 @@
-* {
-    color: #2b4057;
-    font-family: 'Noto Sans TC', sans-serif;
-}
-
 .giveMeGap {
     margin-bottom: 150px;
 }
 
-.title {
-    text-align: center;
-}
 
 .bottom_gap {
     margin-bottom: 40px;
@@ -45,7 +37,7 @@
     animation: gradient-fill 5s linear infinite;
     transform: translateZ(0);
     background-size: 200% 200%;
-    background-image: radial-gradient(circle at 100% 60%, #F49977, #b8b8ff 73%, #fee140 88%, #ecedef 165%, #f0eff0 165%);
+    background-image: radial-gradient(circle at 100% 60%, #F49977, #4facfe 73%, #fee140 88%, #ecedef 165%, #f0eff0 165%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -70,12 +62,21 @@
 }
 
 /* banner part */
+.banner_backgroud {
+    background-image: url(/image/background/backgroud-wave-linear1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 .banner_setting {
     max-width: 1200px;
     height: 500px;
-    margin-top: 100px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
+
 }
 
 .banner_search {
@@ -94,10 +95,15 @@
 
 .keyword_button {
     border-radius: 10px;
-    padding: 5px;
-    background-color: #fcf6bd;
+    padding: 8px;
+    background-color: #1a659e;
     border: 1px solid transparent;
     margin-right: 5px;
+    font-size: 18px;
+}
+
+.keyword_button a {
+    color: #fff;
 }
 
 .banner_title {
@@ -173,7 +179,7 @@
 /* free-trial part */
 .banner_freeTrial {
     height: 90px;
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background-color: #38618c;
     /* background: linear-gradient(45deg, #f49988, #f4ec87); */
     display: flex;
     justify-content: center;
@@ -211,13 +217,20 @@
 }
 
 /*   course types */
+
+.course_all_wrap {
+    width: 100%;
+    background-image: url(/image/background/homepage_courseType_backgroud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .course_type {
     height: 100%;
-    max-width: 1200px;
     width: 100%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    /* background-image: url(../image/background/bbblurry.svg); */
 }
 
 .course_card {
@@ -289,6 +302,7 @@
 
 .course_items_img {
     margin-bottom: 10px;
+    box-shadow: 5px 5px 10px 0px #9cb0c6;
 }
 
 .course_items_img img {
@@ -305,7 +319,7 @@
 .mobile_frame {
     width: 1000px;
     height: 650px;
-    background-image: url(../image/homepage/frame1.png);
+    background-image: url(../image/homepage/frame.png);
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -313,8 +327,8 @@
 
 .travel_video {
     position: absolute;
-    left: 115px;
-    top: 98px;
+    left: 26px;
+    top: 68px;
 }
 
 /* teacher_team */
@@ -325,14 +339,21 @@
 
 .section_teacher_cards_container {
     width: 100%;
+    background-image: url(/image/background/teacher_extension.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.all_center_teacher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section_teacher_cards {
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
-    margin-left: 10%;
-    margin-right: 10%;
     justify-content: center;
 }
 
@@ -347,7 +368,7 @@
     height: 250px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 10px 10px 0px 0px #c1e5ff;
+    box-shadow: 10px 10px 0px 0px #38618c;
 }
 
 .teacher_card h2::before {
@@ -362,6 +383,12 @@
 }
 
 /* ----pricing table ----*/
+.price_backgroud_color {
+    background-image: url(/image/background/footerbackgroud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+}
 
 .pricing_table_container {
     width: 1200px;
@@ -386,14 +413,14 @@
     text-align: center;
     margin: 20px;
     border-radius: 30px;
-    box-shadow: 4px 5px 20px 0px rgb(59 57 57 / 20%);
+    box-shadow: 4px 5px 10px 0px rgb(59 57 57 / 10%);
     display: flex;
     flex-direction: column;
+    background-color: #fff;
 }
 
 .p_table_item:hover {
     transform: scale(1.1);
-    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
 }
 
 .p_tag {
@@ -457,7 +484,7 @@
 
 /* ----Student's feedback----- */
 .student_feedback_container {
-    background-color: #B8C5C5;
+    background-color: #9cb0c6;
     padding: 20px 20px;
     height: 600px;
 }
@@ -504,8 +531,8 @@
 
 .heart {
     position: absolute;
-    top: 20px;
-    right: 300px;
+    top: 10px;
+    right: 200px;
     animation: 3.4s ease-in-out hearts normal infinite;
 }
 

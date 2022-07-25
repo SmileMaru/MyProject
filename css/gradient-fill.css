@@ -1,0 +1,24 @@
+/* 漸層色 */
+.gradient-fill {
+    animation: gradient-fill 5s linear infinite;
+    transform: translateZ(0);
+    background-size: 200% 200%;
+    background-image: radial-gradient(circle at 100% 60%, #F49977, #b8b8ff 73%, #fee140 88%, #ecedef 165%, #f0eff0 165%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@keyframes gradient-fill {
+    0% {
+        background-position: 0% 100%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
+}

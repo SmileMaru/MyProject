@@ -1,0 +1,147 @@
+body {
+    /* background: linear-gradient(-360deg, #fff1eb 0%, #ace0f9 100%); */
+}
+
+header {
+    background-image: url(../image/background/backgroud-wave-linear1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+/* nav */
+.logIn .free_trial {
+    color: #F49977;
+}
+
+/* banner */
+
+.banner_container {
+    max-width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+}
+
+.banner_picture {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.banner_picture img {
+    width: 600px;
+}
+
+.banner_text_part {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #2B4057;
+    box-sizing: border-box;
+}
+
+.banner_main_title {
+    width: 50%;
+}
+
+.banner_main_title h1 {
+    font-size: 50px;
+}
+
+.section_title {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+
+.banner {
+    position: relative;
+}
+
+/* teacher */
+.section_backgroud_color {
+    background-image: url(../image/background/backgroud-long.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.section_title h2::before {
+    content: url(../image/icon/ribbon.png);
+    vertical-align: -20%;
+    padding-right: 10px;
+}
+
+.section_teacher_title {
+    text-align: center;
+}
+
+.intro_teacher_container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.standard_box {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.intro_teacher_container:hover {
+    box-shadow: 5px 5px 16px rgb(10, 10, 10, 60%);
+}
+
+.teacher_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.video_course {
+    display: flex;
+    align-items: center;
+}
+
+.teacher_photo {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 10px 10px 0px rgb(2, 62, 138, 80%);
+    margin-bottom: 15px;
+}
+
+.teacher_content {
+    width: 400px;
+    text-align: center;
+}
+
+.teacher_content,
+h3,
+p {
+    color: rgb(2, 62, 138);
+}
+
+.teacher_photo img {
+    width: 100%;
+}
+
+.experience {
+    line-height: 20px;
+}
+
+.sub_title {
+    color: rgb(2, 62, 138);
+    line-height: 30px;
+}
+
+/* button 免費註冊 */
+.freeTrial_button {
+    text-align: center;
+}
