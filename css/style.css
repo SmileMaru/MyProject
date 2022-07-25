@@ -533,7 +533,7 @@
 .heart {
     position: absolute;
     top: 10px;
-    right: 200px;
+    right: 300px;
     animation: 3.4s ease-in-out hearts normal infinite;
 }
 
