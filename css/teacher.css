@@ -84,6 +84,7 @@ header {
     border-radius: 30px;
     background-color: #fff;
     margin-bottom: 40px;
+    box-shadow: 5px 5px 16px rgb(10, 10, 10, 50%);
 }
 
 .standard_box {
@@ -93,7 +94,7 @@ header {
 }
 
 .intro_teacher_container:hover {
-    box-shadow: 5px 5px 16px rgb(10, 10, 10, 60%);
+    box-shadow: 5px 5px 16px rgb(10, 10, 10, 90%);
 }
 
 .teacher_info {
