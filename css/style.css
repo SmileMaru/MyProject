@@ -63,7 +63,7 @@
 
 /* banner part */
 .banner_backgroud {
-    background-image: url(/image/background/backgroud-wave-linear1.png);
+    background-image: url(../image/background/backgroud-wave-linear1.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -119,7 +119,7 @@
 }
 
 .trial_sub::before {
-    content: url(/image/icon/check.png);
+    content: url(../image/icon/check.png);
     vertical-align: -20%;
     padding-right: 10px;
 }
@@ -221,7 +221,7 @@
 
 .course_all_wrap {
     width: 100%;
-    background-image: url(/image/background/homepage_courseType_backgroud-blue.png);
+    background-image: url(../image/background/homepage_courseType_backgroud-blue.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -269,7 +269,7 @@
 }
 
 .sticky_mainTitle h2::before {
-    content: url(/image/icon/ribbon.png);
+    content: url(../image/icon/ribbon.png);
     vertical-align: -20%;
     padding-right: 10px;
 }
@@ -340,7 +340,7 @@
 
 .section_teacher_cards_container {
     width: 100%;
-    background-image: url(/image/background/extension_backgroud_wave.png);
+    background-image: url(../image/background/extension_backgroud_wave.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -373,7 +373,7 @@
 }
 
 .teacher_card h2::before {
-    content: url(/image/icon/ribbon.png);
+    content: url(../image/icon/ribbon.png);
     vertical-align: -20%;
     padding-right: 10px;
 }
@@ -385,7 +385,7 @@
 
 /* ----pricing table ----*/
 .price_backgroud_color {
-    background-image: url(/image/background/vertical-flip-wave.png);
+    background-image: url(../image/background/vertical-flip-wave.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px 0px;
@@ -402,7 +402,7 @@
 }
 
 .pricing_table h2::before {
-    content: url(/image/icon/ribbon.png);
+    content: url(../image/icon/ribbon.png);
     vertical-align: -20%;
     padding-right: 10px;
 }
