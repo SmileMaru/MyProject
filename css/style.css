@@ -192,9 +192,6 @@
     font-size: 20px;
 }
 
-.logIn .free_trial {
-    color: #F49977;
-}
 
 .text_chinese {
     letter-spacing: 2px;
@@ -361,7 +358,7 @@
 .teacher_col {
     box-sizing: border-box;
     width: 250px;
-    margin: 0px 20px;
+    margin: 0px 30px;
 }
 
 .teacher_pic {
@@ -499,18 +496,10 @@
 .feedback_content {
     width: 260px;
     padding: 20px;
+    height: 250px;
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 30px;
-}
-
-.feedback_items {
-    display: flex;
-    flex-direction: column;
-    height: 250px;
-    justify-content: center;
-    line-height: 25px;
-    box-sizing: border-box;
 }
 
 .student_picture {
